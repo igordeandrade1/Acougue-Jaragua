@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+
+
+
+header {
+    height: 200px;
+    padding: 20px 0;
+    background-color: #2E8B57;
+    border: 3px solid black;
+
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+
+}
+
+span.destaque {
+    color: white;
+}
+
+span.verde {
+    color: #017143;
+}
+
+h1 {
+
+    text-align: center;
+    font-family: Verdana;
+}
+
+
+
+
+
+.texto-sobre {
+    margin-top: 100px;
+    align-content: center;
+
+
+}
+
+.texto-sobre h1 {
+    font-size: 50px;
+    align-content: center;
+
+}
+
+.texto-sobre button {
+    border: 0;
+    background-color: #017143;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    align-content: center;
+
+
+}
+
+.produto {
+    border: 3px solid #017143;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.produto p {
+    background-color: #017143;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana;
+}
+
+.produto p:hover {
+    transform: rotate(-3deg);
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.tabela {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela td,
+.tabela th {
+    border: 3px solid black;
+    padding: 8px;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabela tr:hover {
+    background-color: #ddd;
+}
+
+.tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #017143;
+    color: white;
+}
+
+footer {
+    background-color: #017143;
+    border: 3px solid black;
+}
+
+
+
+footer img {
+    width: 40px;
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+main {
+    background-color: #8be2af;
+}
+
+
+
+
+.imagem {
+    display: block;
+    margin: 0px auto;
+
+}
+
+
+
+
+
+fieldset {
+    border: 3px solid black;
+}
+
+legend {
+    border: 1px solid black;
+    background-color: #017143;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+
+}
+
+.parada_dexxx {
+    position: relative;
+}
+
+
+
+.só_um_10zinho_pfv {
+    background-color: #8be2af;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+
+}
+
+
+.me_da_um_10_pfv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.só_um_10zinho_pfv:focus~.me_da_um_10_pfv,
+.só_um_10zinho_pfv:valid~.me_da_um_10_pfv {
+    top: -20px;
+    font-size: 12px;
+    color: #017143;
+
+}
+
+#enviar {
+    background-color: #017143;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+#enviar:hover {
+    background-image: linear-gradient(to right, #017143, #012214);
+}
+
+.botao {
+    color: white;
+}
